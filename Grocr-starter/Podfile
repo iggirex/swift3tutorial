@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+inhibit_all_warnings!
+workspace 'Grocr'
+xcodeproj 'Grocr.xcodeproj'
+use_frameworks!
+platform :ios, '10.0'
+target 'Grocr' do
+pod 'Firebase'
+pod 'Firebase/Core'
+pod 'Firebase/Database'
+pod 'Firebase/Auth'
+end
